@@ -16,8 +16,7 @@ In the `experiments` folder, you will find the official dataset splits, plus the
 
 # Running experiments
 
-Two folders are compressed in `experiments/dataset_splits.zip`: `dataset_splits` and `dataset_splits_shifted`. By default, the test sets used in our experiments do not feature context shift. The `dataset_splits` folder therefore contains our official splits, while `dataset_splits_shifted` has optional harder splits that were largely unused in our paper. Extract both of these to the root directory.  
-Within these folders, problems are organised by experiments 1-5, as they appear in our paper. Each experiment folder contains subfolders for the different splits generated, and in turn, those folders each contain 5 generated folds. To reproduce experiments from the paper, we provide .sh files containing all relevant commands. For example, running `./experiment_1.sh` will train context-blind, Resnet, and Rel-Base models, on all splits and their folds for experiment 1. Once complete, it will write all results to the test_results folder, including the number of problems trained and tested, test accuracies during training, training duration, and a full breakdown of model accuracy over the different problem types/concepts it encountered (e.g. gestalt closure, relational position, ink level, to name a few). Note: If you want to train the SCL model, please extract the two folders in `scl.zip` to the root folder. It includes a version of the authors' library they used to implement their model.
+The `dataset_splits` folder contains subfolders for each of the 5 experiments, as they appear in the paper. Each experiment folder contains subfolders for the different splits generated, and in turn, those folders each contain 5 folds. To reproduce experiments from the paper, we provide .sh files containing all relevant commands. For example, running `./experiment_1.sh` will train context-blind, Resnet, and Rel-Base models, on all splits and their folds for experiment 1. Once complete, it will write all results to the test_results folder, including the number of problems trained and tested, test accuracies during training, training duration, and a full breakdown of model accuracy over the different problem types/concepts it encountered (e.g. gestalt closure, relational position, ink level, to name a few). Note: If you want to train the SCL model, please extract the two folders in `scl.zip` to the root folder. It includes a version of the authors' library they used to implement their model.
 
 # Creating new datasets
 In `generation/UA.py`, you will find code to import annotated images and generate new UA splits. You have control over the random seed, image size (all Unicode characters have been rendered at 500x500 pixels and will downsample to 80x80 by default), train-test split ratio, number of problems to generate, hold-out, context shift, extrapolation, k folds, and more. All code for generating the split types used in our paper is included. Upon familiarising yourself with this code, you should be able to customise it for your own splits. Please refer to our paper for further details on parameters for generating splits.
@@ -32,7 +31,7 @@ Additional implementation details, as well as sample problems, can be found in t
 
 # Citation
 
-If you find the paper and/or the code helpful, please cite us :)
+If you find our work helpful, please cite us :)
 
 ```
 @InProceedings{Spratley_2023_CVPR,
