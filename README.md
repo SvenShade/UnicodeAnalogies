@@ -24,3 +24,7 @@ In `generation/UA.py`, you will find code to import annotated images and generat
 # Extending the UA framework
 
 UA assembles problems from annotation folders, which means that it isn't limited to the images we've sorted. One can generate images of new characters in different fonts (see `generation/generate_imgs.py` for an example of how to do this), or, one can create their own schema and label other types of images (see the `generation/Annotations` folder as an example of how to organise images for the program).
+
+# Supplementary material
+
+Additional implementation details, as well as sample problems, can be found in the [supplementary material](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Spratley_Unicode_Analogies_An_CVPR_2023_supplemental.pdf).
