@@ -28,3 +28,18 @@ UA assembles problems from annotation folders, which means that it isn't limited
 # Supplementary material
 
 Additional implementation details, as well as sample problems, can be found in the [supplementary material](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Spratley_Unicode_Analogies_An_CVPR_2023_supplemental.pdf).
+
+# Citation
+
+If you find the paper and/or the code helpful, please cite us.
+
+```
+@InProceedings{Spratley_2023_CVPR,
+    author    = {Spratley, Steven and Ehinger, Krista A. and Miller, Tim},
+    title     = {Unicode Analogies: An Anti-Objectivist Visual Reasoning Challenge},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {19082-19091}
+}
+```
