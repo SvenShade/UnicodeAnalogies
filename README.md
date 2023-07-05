@@ -1,4 +1,4 @@
-# UnicodeAnalogies
+# Unicode Analogies
 
 This repo contains code for our CVPR 2023 paper.
 
@@ -32,7 +32,7 @@ Additional implementation details, as well as sample problems, can be found in t
 
 # Citation
 
-If you find the paper and/or the code helpful, please cite us.
+If you find the paper and/or the code helpful, please cite us :)
 
 ```
 @InProceedings{Spratley_2023_CVPR,
