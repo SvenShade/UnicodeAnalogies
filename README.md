@@ -12,7 +12,7 @@ Analogical reasoning enables agents to extract relevant information from scenes,
 
 # Repository organisation
 
-In the `experiments` folder, you will find the official dataset splits, plus the code required to train models and to reproduce all experiments in our paper. In the `generation` folder, you will find folders containing images of Unicode characters, their fonts, rendered images, and annotations, as well as code to generate new splits.
+In the `experiments` folder, you will find the official dataset splits, plus the code required to train models and to reproduce all experiments in our paper. In the `generation` folder, you will find folders containing Unicode characters (fonts, images, and annotations), as well as code to generate new splits.
 
 # Running experiments
 
